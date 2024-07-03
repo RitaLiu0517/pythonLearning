@@ -1,12 +1,15 @@
 import random
 
-r = random.randint(1,100) #1-100數
+start = int(input("請決定隨機數字的開始值： "))
+end = int(input("請決定隨機數字的結束值： "))
+
+r = random.randint(start,end) 
 print(r)
 count = 0
 
 while True :
     count += 1 
-    num = int(input("請輸入1-100的數字： "))
+    num = int(input("請輸入數字： "))
     if num > r :
         print ("數字太大囉")
     elif num < r :
