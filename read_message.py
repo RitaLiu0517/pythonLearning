@@ -36,3 +36,15 @@ for d in data:
         good.append(d)
 print("一共有",len(good),'筆留言提到good')
 print(good[0])
+
+
+#速寫
+good = [d for d in data if 'good' in d] #33-38的速寫 
+# d in data 如果有good,就將程式中最前面的d加入
+
+
+bad = ['bad' in d for d in data] #for d in data 找有bad的判斷是在用true/false寫出
+#原寫法
+bad = []
+for d in data: 
+    bad.append('bad' in d) #('bad' in d)是判斷式
