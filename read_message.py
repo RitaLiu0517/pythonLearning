@@ -15,3 +15,24 @@ sum_len = 0
 for d in data :
     sum_len += len(d) #每讀取到一筆留言的長度將它加進sum_len裡
 print("留言的平均長度為" ,sum_len/len(data))
+
+
+
+#清單篩選，少於100字的印出
+new =[]
+
+for d in data :
+    if(len(d)<100):
+        new.append(d) #少於字數100的留言加入新清單內
+        
+print ('共印出',len(new),'筆資料字數少於100')
+print(new[0])
+
+
+#清單篩選，有good字的留言印出
+good =[]
+for d in data:
+    if 'good' in d:
+        good.append(d)
+print("一共有",len(good),'筆留言提到good')
+print(good[0])
