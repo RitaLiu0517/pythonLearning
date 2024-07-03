@@ -5,6 +5,7 @@ import random
 range(5) #[0,1,2,3,4]
 range(3) #[0,1,2]
 
+#開始值有包含但不包含結束值
 range(2, 5) #[2,3,4]
 range(8, 10) #[8,9]
 range(2, 10, 3) #[2,5,7] 遞增3
@@ -16,3 +17,6 @@ for i in range(5) :
     r = random.randint(1,1000)
     print(r)
 
+
+for i in range(100):
+    print("hi")
