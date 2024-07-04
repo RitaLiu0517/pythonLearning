@@ -28,7 +28,7 @@ for product in products:
 with open('products.csv','w',encoding='utf-8') as f : #'r'是讀，'W'是寫  也可以用'products.txt'，但是'products.csv'
       f.write('商品,價格\n') #加入標頭
       for product in products:
-            f.write(product[0]+ ','+ product[1]+ '元\n') #f.write 這段才是真正寫入檔案
+            f.write(product[0]+ ','+ product[1]+ '\n') #f.write 這段才是真正寫入檔案
 
 
 # 練習寫入檔案
