@@ -3,8 +3,6 @@ def read_file(filename):
         lines = []
         for line in f :
             lines.append(line.strip())
-            # if 'Allen,Tom' in line:
-            #     continue
     return lines
 
 def covert(lines):
