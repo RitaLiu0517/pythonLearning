@@ -24,8 +24,10 @@ print(products)
 for product in products:
       print(product[0], "的價格是", product[1])
 
-
-
+#將明細寫入電腦檔案
+with open('products.csv','w',encoding='utf16') as f : #'r'是讀，'W'是寫  也可以用'products.txt'，但是'products.csv'
+      for product in products:
+            f.write(product[0]+ ','+ product[1]+ '元\n') #f.write 這段才是真正寫入檔案
 
 
 
