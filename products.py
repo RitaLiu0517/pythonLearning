@@ -18,9 +18,14 @@ while True:
         #又可將15-16改寫成
         products.append([name, price])
 
-
-
-
-
-
 print(products)
+
+#列出每個清單，使用for loop
+for product in products:
+      print(product[0], "的價格是", product[1])
+
+
+
+
+
+
