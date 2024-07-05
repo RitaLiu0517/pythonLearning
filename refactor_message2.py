@@ -19,8 +19,8 @@ def covert(lines):
       elif name == 'yufi':
           for message in s[2:]:
             yufi_words_count += len(message)
-    print('rita說了',rita_words_count ,'個字')
-    print('yufi說了',yufi_words_count,'個字')
+    print('rita說了',rita_words_count, '個字')
+    print('yufi說了',yufi_words_count, '個字')
     
     #   print(s[0])
 
