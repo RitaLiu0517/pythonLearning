@@ -1,5 +1,4 @@
 # dictionary 字典 使用{}包裝，核心概念是key-value pair 
-
 words = {
     'ramen' : '拉麵',
     'pasta' : '義大利麵'
