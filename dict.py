@@ -8,7 +8,6 @@ words = {
 words['tea'] = '茶' #增加新的key
 print(words) #{'ramen': '拉麵', 'pasta': '義大利麵', 'tea': '茶'}
 
-
 # list 跟 dict 混用
 p0 = {
     'name' : '麥香奶茶',
